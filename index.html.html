@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>青いサメの自己紹介</title>
+  <style>
+    /* 全体の基本設定 */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      line-height: 1.7;
+      /* ▼ 全体の文字の色を変える場所 */
+      color: #333333;
+      /* 配色：白を基調に設定 */
+      background-color: #ffffff;
+    }
+
+    /* ヘッダー（タイトルとページ内メニュー） */
+    header {
+      background-color: #ffffff;
+      border-bottom: 2px solid #e0e0e0;
+      padding: 24px 16px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 16px 0;
+      font-size: 1.6rem;
+      /* ▼ タイトルの文字の色を変える場所 */
+      color: #222222;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    nav a {
+      display: inline-block;
+      /* ▼ メニューボタンの文字の色を変える場所 */
+      color: #333333;
+      text-decoration: none;
+      background-color: #ffffff;
+      border: 1px solid #cccccc;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 0.95rem;
+    }
+
+    nav a:hover {
+      background-color: #f5f5f5;
+    }
+
+    /* メインコンテンツ */
+    main {
+      max-width: 720px;
+      margin: 24px auto;
+      padding: 0 16px;
+    }
+
+    section {
+      background-color: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+
+    section h2 {
+      margin-top: 0;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #dddddd;
+      /* ▼ 見出しの文字の色を変える場所 */
+      color: #222222;
+      font-size: 1.3rem;
+    }
+
+    p {
+      margin: 0 0 16px 0;
+      overflow-wrap: break-word;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* リンクの見た目 */
+    .official-link {
+      display: inline-block;
+      margin-top: 8px;
+      /* ▼ リンクの文字の色を変える場所 */
+      color: #0056b3;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    /* フッター */
+    footer {
+      text-align: center;
+      padding: 16px;
+      font-size: 0.85rem;
+      color: #666666;
+      border-top: 1px solid #eeeeee;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>青いサメの自己紹介</h1>
+    <nav aria-label="ページ内メニュー">
+      <ul>
+        <li><a href="#intro">自己紹介</a></li>
+        <li><a href="#learning">今学んでいること</a></li>
+        <li><a href="#future">これからやってみたいこと</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. 自己紹介セクション -->
+    <section id="intro">
+      <h2>自己紹介</h2>
+      <!-- ▼ 自己紹介の文章を変える場所 -->
+      <p>初めまして、大学1年生の青いサメです。現在は塾の受付バイトをやっています。</p>
+      
+      <!-- ▼ 公式サイトのリンク（URL・表示名）を入れる場所 -->
+      <p>
+        <a class="official-link" href="https://www.amazon.co.jp/" target="_blank" rel="noopener noreferrer">
+          amazon
+        </a>
+      </p>
+    </section>
+
+    <!-- 2. 今学んでいることセクション -->
+    <section id="learning">
+      <h2>今学んでいること</h2>
+      <!-- ▼ 今学んでいることの文章を変える場所 -->
+      <p>今は大学では情報系の内容を学んでおりバイトでは電話応対や事務作業を学んでいます。</p>
+    </section>
+
+    <!-- 3. これからやってみたいことセクション -->
+    <section id="future">
+      <h2>これからやってみたいこと</h2>
+      <!-- ▼ これからやってみたいことの文章を変える場所 -->
+      <p>子供からの問題の質問に対し、答えられるようになることがこれからやってみたいことです。</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 青いサメ</p>
+  </footer>
+
+</body>
+</html>
